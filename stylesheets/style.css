@@ -622,7 +622,11 @@ input[type="color"],
 	background-size: 100%;
 	width: 197px;
 	height: 180px;
-	float: left;
+	margin-top: -79px;	
+}
+
+.coming-soon {
+	margin-top: 99px;
 }
 
 a.logo-img {
@@ -630,7 +634,7 @@ a.logo-img {
 }
 
 .slide-dark .logo-img {
-	background: url('../images/logo.png') no-repeat;
+	background: url('../images/eatt-white.png') no-repeat;
 	background-size: 100%;
 }
 
@@ -2456,14 +2460,14 @@ a.logo-img {
 		margin-left: 15px;
 		left: 0;
 		top: 10px;
-		background: url('../images/logo.png') no-repeat;
+		background: url('../images/eatt-white.png') no-repeat;
 		background-size: 100%;
 		padding: 0;
 		height: 150px;
 	}
 
 	.slide-dark .mobile-event .logo-img { 
-		background: url('../images/logo.png') no-repeat;
+		background: url('../images/eatt-white.png') no-repeat;
 		width: 197px;
 		height: 31px;		
 	}
