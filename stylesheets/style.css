@@ -955,10 +955,10 @@ a.logo-img {
     background: url('../images/icons/drink.png') 0 -24px;
 }
 
-.class-filter .ico-steak:before {
+.class-filter .ico-entree:before {
     width: 24px;
     height: 24px;
-    background: url('../images/icons/steak.png') 0 0;
+    background: url('../images/icons/carrot.png') 0 0;
     content: "";
     position: absolute;
 	-webkit-transition: all 0.3s;
@@ -968,8 +968,59 @@ a.logo-img {
 	transition: all 0.3s;
 }
 
-.class-filter .ico-steak:hover:before {
-    background: url('../images/icons/steak.png') 0 -24px;
+.class-filter .ico-entree:hover:before {
+    background: url('../images/icons/carrot.png') 0 -24px;
+}
+
+.class-filter .ico-dish:before {
+    width: 24px;
+    height: 24px;
+    background: url('../images/icons/cabbage.png') 0 0;
+    content: "";
+    position: absolute;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.class-filter .ico-dish:hover:before {
+    background: url('../images/icons/cabbage.png') 0 -24px;
+}
+
+.class-filter .ico-dessert:before {
+    width: 24px;
+    height: 24px;
+    background: url('../images/icons/pineapple.png') 0 0;
+    content: "";
+    position: absolute;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.class-filter .ico-dessert:hover:before {
+    background: url('../images/icons/pineapple.png') 0 -24px;
+}
+
+.class-filter .ico-pastry:before {
+    width: 24px;
+    height: 24px;
+    background: url('../images/icons/raspberry.png') 0 0;
+    content: "";
+    position: absolute;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.class-filter .ico-pastry:hover:before {
+    background: url('../images/icons/raspberry.png') 0 -24px;
 }
 
 .portfolio-container .content {
@@ -2612,13 +2663,13 @@ a.logo-img {
 	    background-size: 24px 48px;
 	}
 
-	.class-filter .ico-steak:before {
-	    background: url('../images/icons/steak@2x.png') 0 0;
+	.class-filter .ico-entree:before {
+	    background: url('../images/icons/carrot@2x.png') 0 0;
 	    background-size: 24px 48px;
 	}
 
-	.class-filter .ico-steak:hover:before {
-	    background: url('../images/icons/steak@2x.png') 0 -24px;
+	.class-filter .ico-entree:hover:before {
+	    background: url('../images/icons/carrot@2x.png') 0 -24px;
 	    background-size: 24px 48px;
 	}
 
@@ -2687,13 +2738,13 @@ a.logo-img {
 	   	background-size: 32px 64px;
 	}
 
-	.w50:hover .res-top .res-icon.ico-sushi:before {
-	  	background: url('../images/icons/sushi@2x.png');
+	.w50:hover .res-top .res-icon.ico-pastry:before {
+	  	background: url('../images/icons/raspberry@2x.png');
 	   	background-size: 32px 64px;
 	}
 
 	.w50:hover .res-top .res-icon.ico-dessert:before {
-	  	background: url('../images/icons/dessert@2x.png');
+	  	background: url('../images/icons/pineapple@2x.png');
 	   	background-size: 32px 64px;
 	}
 
@@ -2703,7 +2754,7 @@ a.logo-img {
 	}
 
 	.w50:hover .res-top .res-icon.ico-dish:before {
-	  	background: url('../images/icons/dish@2x.png');
+	  	background: url('../images/icons/cabbage@2x.png');
 	   	background-size: 32px 64px;
 	}
 
@@ -2717,8 +2768,8 @@ a.logo-img {
 	   	background-size: 32px 64px;
 	}
 
-	.w50 .res-top .res-icon.ico-sushi:before {
-	  	background: url('../images/icons/sushi@2x.png') 0 -32px;
+	.w50 .res-top .res-icon.ico-pastry:before {
+	  	background: url('../images/icons/raspberry@2x.png') 0 -32px;
 	   	background-size: 32px 64px;
 	}
 
@@ -2728,7 +2779,7 @@ a.logo-img {
 	}
 
 	.w50 .res-top .res-icon.ico-dish:before {
-	  	background: url('../images/icons/dish@2x.png') 0 -32px;
+	  	background: url('../images/icons/cabbage@2x.png') 0 -32px;
 	   	background-size: 32px 64px;
 	}
 
@@ -2738,7 +2789,7 @@ a.logo-img {
 	}
 
 	.w50 .res-top .res-icon.ico-dessert:before {
-	  	background: url('../images/icons/dessert@2x.png') 0 -32px;
+	  	background: url('../images/icons/pineapple@2x.png') 0 -32px;
 	   	background-size: 32px 64px;
 	}
 }
