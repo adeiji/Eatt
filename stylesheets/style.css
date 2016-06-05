@@ -1732,7 +1732,7 @@ a.logo-img {
 
 .footer-about {
 	background: url("../images/foot-bg.png");
-	padding: 100px 0;
+	padding: 20px 0;
 	background-size: cover;
 }
 
@@ -1769,7 +1769,8 @@ a.logo-img {
 
 /* widget brand*/
 .widget-brand .brand {
-	margin-bottom: 50px;
+	margin-bottom: 25px;
+	margin-left: -20px;
 	margin-top: 1px;
 }
 
@@ -2173,6 +2174,10 @@ a.logo-img {
 	.list-tiwtter {
 		font-size: 15px !important;
 	}
+	
+	.widget-brand .brand {		
+		margin-left: 0px;
+	}
 
 	.widget-brand .social {
 		text-align: left;
@@ -2358,6 +2363,10 @@ a.logo-img {
 	.widget-twitter {
 		margin-bottom: 20px;
 	}
+	
+	.widget-brand .brand {		
+		margin-left: 0px;
+	}
 
 	.widget-brand .social a:first-child {
 		margin-left: 0;
@@ -2539,6 +2548,10 @@ a.logo-img {
 	.blog-user a:hover .blog-img:before {
 		font-size: 44px;
 		margin-left: -10px;
+	}
+	
+	.widget-brand .brand {
+		margin-left: 0px;
 	}
 
 	.widget-brand .brand,
