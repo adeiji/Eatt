@@ -618,7 +618,7 @@ input[type="color"],
 }
 
 .logo-img {
-	background: url('../images/eatt-white.png') no-repeat;
+	background: url('../images/eatt_coffee_white.png') no-repeat;
 	background-size: 100%;
 	width: 197px;
 	height: 180px;
@@ -634,7 +634,7 @@ a.logo-img {
 }
 
 .slide-dark .logo-img {
-	background: url('../images/eatt-white.png') no-repeat;
+	background: url('../images/eatt_coffee_white.png') no-repeat;
 	background-size: 100%;
 }
 
@@ -2520,14 +2520,14 @@ a.logo-img {
 		margin-left: 15px;
 		left: 0;
 		top: 10px;
-		background: url('../images/eatt-white.png') no-repeat;
+		background: url('../images/eatt_coffee_white.png') no-repeat;
 		background-size: 100%;
 		padding: 0;
 		height: 150px;
 	}
 
 	.slide-dark .mobile-event .logo-img { 
-		background: url('../images/eatt-white.png') no-repeat;
+		background: url('../images/eatt_coffee_white.png') no-repeat;
 		width: 197px;
 		height: 31px;		
 	}
