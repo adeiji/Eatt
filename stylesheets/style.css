@@ -255,7 +255,7 @@ input[type="color"],
 /* parallax */
 .slide-section {
 	width: 100%;
-	height: 854px;
+	/*height: 854px;*/ /*ADE: Interfering with coming soon section. Add this back when the slider is brought back. */
 	text-align: center;
 	overflow: hidden;
 	position: relative;
@@ -626,7 +626,7 @@ input[type="color"],
 }
 
 .coming-soon {
-	margin-top: 99px;
+	margin-top: 0px;
 }
 
 a.logo-img {
