@@ -241,7 +241,7 @@
             markers: [{  
                 address: '7865 W Sahara Avenue, Las Vegas, NV 89117', 
                 title: 'marker title 1',
-                icon: 'images/green_marker_53.png'
+                icon: 'images/green_marker_48.png'
             }],
             scrollwheel: false, 
             disableDoubleClickZoom: false,
