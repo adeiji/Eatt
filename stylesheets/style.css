@@ -2212,6 +2212,10 @@ a.logo-img {
 	left: 50%;
 }
 
+.mobile {
+	display: none;
+}
+
 /******************************************************************************/
 
 /* Media Queries
@@ -2224,6 +2228,14 @@ a.logo-img {
 
 /* Smaller than standard 1200 */
 @media only screen and (max-width: 1199px) {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+		top: auto;
+		bottom: 40px;
+	}
 	.menu .offset-right {
 		margin: 0 34px;
 	}
@@ -2274,6 +2286,14 @@ a.logo-img {
 
 /* Smaller than standard 980 */
 @media only screen and (max-width: 991px) {
+	.mobile {
+		display: block;
+		top: auto;
+		bottom: 40px;
+	}
+	.desktop {
+		display: none;
+	}
 	.btn-menu {
 		opacity: 1;
 		margin-top: 15px;		
@@ -2476,6 +2496,18 @@ a.logo-img {
 }
 
 @media only screen and (max-width: 767px) {	
+
+	div .no-image {
+		width: 100%;
+	}
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		display: block;
+		bottom: 40px;
+		top: auto;
+	}
 	.blog-user .blog-day {
 		width: 60px;
 		height: 60px;
@@ -2518,7 +2550,28 @@ a.logo-img {
 	}
 }
 
+@media only screen and (min-width: 479px) and (max-width: 768px)
+{
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display:block;		
+		bottom: 100px;
+	}
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.desktop {
+		display: none;
+	}
+
+	.mobile {
+		display:block;
+		top: auto;
+		bottom: 40px;
+
+	}
 	.posts-container.responsive .post-item p {
 		font-size: 12px;
 		line-height: 20px;
@@ -2545,6 +2598,12 @@ a.logo-img {
 }
 
 @media only screen and (max-width : 479px) {
+	.desktop {
+		display: none;
+	}
+	.mobile {
+		top: -350px;
+	}
 	.mobile-event {
 		height: 41px;
 	}
@@ -2686,7 +2745,7 @@ a.logo-img {
 }
 
 /* Retina Devices */
-@media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+@media only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {	
 	.reservation-section .reser-box:before {
 		background: url("../images/reser-form-top-bg@2x.png");
 		background-size: 66px 66px;
@@ -2837,3 +2896,8 @@ a.logo-img {
 	   	background-size: 32px 64px;
 	}
 }
+
+/*Additions*/
+p#tags {
+	color: orange;
+	}

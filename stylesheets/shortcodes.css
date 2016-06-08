@@ -20,6 +20,11 @@ section {
    padding: 95px 0;
 }
 
+.about-section {
+  background-color: #87BD34;
+  color: white;
+}
+
 .section .overlay {
    position: absolute;
    top: 0;
@@ -78,7 +83,7 @@ section {
 .titlebox .title h4{
   font-size: 18px;
   letter-spacing: 1px;
-  color: #313237;
+  color: white;
   margin: 0;
   padding: 0;
   margin-bottom: 11px;
@@ -334,7 +339,7 @@ section {
 .w50 .res-top .res-icon.ico-wine:before {
   width: 32px;
   height: 32px;
-  background: url('../images/icons/wine.png') 0 -32px;
+  background: url('../images/icons/drink@2x.png') 0 -32px;
   content: "";
   position: absolute;
   -webkit-transition: all 0.3s;
