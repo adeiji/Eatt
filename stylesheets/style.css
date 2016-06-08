@@ -2471,7 +2471,7 @@ a.logo-img {
 	}
 
 	.slide-section {
-		/*height: 699px;*/
+		/*height: 699px;*/ /* Ade: Since the slide is not being used right now, let's comment out any height */
 	}
 }
 
@@ -2668,7 +2668,7 @@ a.logo-img {
 	}
 
 	.slide-section {
-		height: 469px;
+		/*height: 469px;*/ /* Ade: Since the slide is not being used right now, let's comment out any height */
 	}
 
 	.img-items .img-left {
