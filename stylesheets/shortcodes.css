@@ -503,7 +503,6 @@ section {
 
 .chefs-detail .chefs-img img {
     width: 100%;
-    height: 450px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
@@ -897,14 +896,4 @@ section {
   100% {
     font-size: 35px;
   }
-}
-
-/* Media Queries
--------------------------------------------------------------- */
-
-@media only screen and (max-width: 767px) {
- .chefs-detail .chefs-img img {
-    width: 100%;
-    height: 100%;
- }  
 }
