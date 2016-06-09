@@ -1172,7 +1172,7 @@ a.logo-img {
 }
 
 .no-image .content {
-	height: 250px;
+	min-height: 250px;
 	border-top: 2px solid #f9f6f3;	
 }
 
