@@ -1154,6 +1154,7 @@ a.logo-img {
 .portfolio-container .content .price {
 	font-size: 28px;
 	margin-bottom: 27px;
+	margin-top: 20px;
 	color: #515151;
 	font-weight: 400;
 }
@@ -1168,6 +1169,10 @@ a.logo-img {
 	overflow: hidden;
 	text-align: center;
 	position: relative;
+}
+
+.footnote {
+	margin-top: 40px;
 }
 
 /* Catering Section
