@@ -2238,7 +2238,7 @@ a.logo-img {
 	left: 50%;
 }
 
-.mobile {
+.mobile-profile {
 	display: none;
 }
 
@@ -2257,7 +2257,7 @@ a.logo-img {
 	.desktop {
 		display: none;
 	}
-	.mobile {
+	.mobile-profile {
 		display: block;
 		top: auto;
 		bottom: 40px;
@@ -2312,7 +2312,7 @@ a.logo-img {
 
 /* Smaller than standard 980 */
 @media only screen and (max-width: 991px) {
-	.mobile {
+	.mobile-profile {
 		display: block;
 		top: auto;
 		bottom: 40px;
@@ -2517,7 +2517,7 @@ a.logo-img {
 	}
 
 	.slide-section {
-		height: 699px; /* Ade: Since the slide is not being used right now, let's comment out any height */
+		/*height: 699px;*/ /* Ade: Since the slide is not being used right now, let's comment out any height */
 	}
 }
 
@@ -2526,10 +2526,16 @@ a.logo-img {
 	div .no-image {
 		width: 100%;
 	}
+	
+	div .no-image .empty-image {
+		display: none;
+	}
+	
 	.desktop {
 		display: none;
 	}
-	.mobile {
+	
+	.mobile-profile {
 		display: block;
 		bottom: 40px;
 		top: auto;
@@ -2582,7 +2588,7 @@ a.logo-img {
 		display: none;
 	}
 
-	.mobile {
+	.mobile-profile {
 		display:block;		
 		bottom: 100px;
 	}
@@ -2592,7 +2598,7 @@ a.logo-img {
 		display: none;
 	}
 
-	.mobile {
+	.mobile-profile {
 		display:block;
 		top: auto;
 		bottom: 40px;
@@ -2627,7 +2633,7 @@ a.logo-img {
 	.desktop {
 		display: none;
 	}
-	.mobile {
+	.mobile-profile {
 		top: -350px;
 	}
 	.mobile-event {
