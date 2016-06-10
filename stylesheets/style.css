@@ -1172,12 +1172,19 @@ a.logo-img {
 }
 
 .no-image .content {
-	min-height: 250px;
-	border-top: 2px solid #f9f6f3;	
+	min-height: 200px;
+	border-top: 2px solid #f9f6f3;		
+}
+
+.diet-tags {
+	margin-top: 20px;
+	font-size: 120%;
+	color: #a06953;
 }
 
 .footnote {
 	margin-top: 40px;
+	color: #a06953;
 }
 
 .menu-section .portfolio-container {
