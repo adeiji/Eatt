@@ -1176,6 +1176,10 @@ a.logo-img {
 	border-top: 2px solid #f9f6f3;		
 }
 
+.no-image .portfolio-img {
+	height: 
+}
+
 .diet-tags {
 	margin-top: 20px;
 	font-size: 120%;
@@ -2513,7 +2517,7 @@ a.logo-img {
 	}
 
 	.slide-section {
-		/*height: 699px;*/ /* Ade: Since the slide is not being used right now, let's comment out any height */
+		height: 699px; /* Ade: Since the slide is not being used right now, let's comment out any height */
 	}
 }
 
