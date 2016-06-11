@@ -2930,7 +2930,10 @@ a.logo-img {
 }
 
 /*Additions*/
-p#tags {
+.portfolio-container .tags {
 	color: orange;
 }
 
+.portfolio-items .tags {
+	color: orange;
+}
