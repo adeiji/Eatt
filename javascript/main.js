@@ -125,7 +125,7 @@
                 }
             } // if anchor
             return false;
-        });
+        });            
     };
 
     // respnsive texts
