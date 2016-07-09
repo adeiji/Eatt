@@ -240,7 +240,7 @@
         $("#map").goMap({ // load map
             markers: [{  
                 address: '7865 W Sahara Avenue, Las Vegas, NV 89117', 
-                title: 'marker title 1',
+                title: '7865 W Sahara Avenue',
                 icon: 'images/green_marker_48.png'
             }],
             scrollwheel: false, 
