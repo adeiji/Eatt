@@ -1835,7 +1835,7 @@ a.logo-img {
 }
 
 /* footer widget*/
-.widget .widget-title  {
+.widget .widget-title, .widget .widget-title-right  {
 	position: relative;
 	margin-bottom: 17px;
 	display: inline-block;
@@ -1852,7 +1852,17 @@ a.logo-img {
 	margin-left: 1px;
 }
 
-.widget .widget-title h2 {
+.widget .widget-title-right:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 67px;
+	border-bottom: 1px solid #fff;
+	margin-left: 1px;
+}
+
+.widget .widget-title h2, .widget .widget-title-right h2 {
 	float: left;
 	font-size: 22px;
 	color: #fff;
@@ -2936,4 +2946,10 @@ a.logo-img {
 
 .portfolio-items .tags {
 	color: orange;
+}
+
+.address .street-address {
+	color: #5A5A5E;
+	font-weight: 700;
+	font-family: "Lato", sans-serif;
 }
