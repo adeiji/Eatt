@@ -1213,7 +1213,7 @@ a.logo-img {
 -------------------------------------------------------------- */
 
 .chef-section {
-	padding-bottom: 150px;
+	padding-bottom: 25px;
 }
 
 /* Meet Section
@@ -2963,4 +2963,8 @@ a.logo-img {
 	color: #5A5A5E;
 	font-weight: 700;
 	font-family: "Lato", sans-serif;
+}
+
+.yelp-review {
+	margin: auto;
 }
