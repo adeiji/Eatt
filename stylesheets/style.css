@@ -1977,6 +1977,11 @@ a.logo-img {
 	margin-bottom: 5px;
 }
 
+.widget-calendar .alert {
+	/*color: white;*/
+	font-weight: normal;
+}
+
 .widget-happy {
 	color: #ecb313;
 	display: inline-block;
@@ -2949,6 +2954,12 @@ a.logo-img {
 }
 
 .address .street-address {
+	color: #5A5A5E;
+	font-weight: 700;
+	font-family: "Lato", sans-serif;
+}
+
+.address .phone-number {
 	color: #5A5A5E;
 	font-weight: 700;
 	font-family: "Lato", sans-serif;
