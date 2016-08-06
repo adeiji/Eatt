@@ -2326,7 +2326,7 @@ a.logo-img {
 }
 
 /* Smaller than standard 980 */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1199px) {
 	.mobile-profile {
 		display: block;
 		top: auto;
@@ -2967,4 +2967,24 @@ a.logo-img {
 
 .yelp-review {
 	margin: auto;
+}
+
+.header-announcement {
+	color: white;
+	font-weight: 700;
+	font-size: 125%;
+	margin: 25px 0px;
+}
+
+@media (min-width: 1370px) {
+	.header .container, header container {
+		width: 1370px;
+	}
+}
+
+/* between mid-size screen and mobile */
+@media (max-width: 1369px) and (min-width: 1200px) {
+	.menu li {
+		margin-left: 0px;
+	}
 }
