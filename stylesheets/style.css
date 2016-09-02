@@ -2426,16 +2426,14 @@ a.logo-img {
 		position: absolute;
 		margin-left: -75px;
 		left: 50%;
+		z-index: -100;
+		display: block;
 	}
 
 	.mobile-event .mainnav {
 		width: 100%;
 		visibility: visible;
 		margin-left: 0.1px;
-	}
-
-	.mobile-event .logo-img {
-		display: block;
 	}
 
 	.reserva-box .title {
@@ -2665,6 +2663,7 @@ a.logo-img {
 		background-size: 100%;
 		padding: 0;
 		height: 150px;
+		z-index: -100;
 	}
 
 	.slide-dark .mobile-event .logo-img { 
@@ -2974,6 +2973,11 @@ a.logo-img {
 	font-weight: 700;
 	font-size: 125%;
 	margin: 25px 0px;
+}
+
+#order-online {
+	font-weight: 400;
+	text-shadow: 2px 2px #999;
 }
 
 @media (min-width: 1370px) {
