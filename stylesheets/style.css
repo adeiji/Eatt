@@ -845,8 +845,7 @@ a.logo-img {
 
 .class-filter a {
 	position: relative;
-	float: left;
-	width: 17.5%;
+	float: left;	
 	margin: 0;
 	padding: 0;
 	margin-left: 2.631578947%;
@@ -855,6 +854,14 @@ a.logo-img {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+}
+
+#menu .class-filter a { /* lunch menu specific width */
+	width: 21.875%;
+}
+
+#dinner-menu .class-filter a { /* dinner menu specific width */
+	width: 48%;
 }
 
 .class-filter .topic {
@@ -2462,8 +2469,8 @@ a.logo-img {
 		width: 50%;
 	}
 
-	.class-filter a {
-		width: 19%;
+	#menu .class-filter a { /* lunch menu specific adjustments */
+		width: 24%;
 		margin-left: 1%;
 	}
 
