@@ -2980,6 +2980,11 @@ a.logo-img {
 	text-shadow: 2px 2px #999;
 }
 
+.titlebox p  {
+	margin-top: 21px;
+	margin-bottom: 41px;
+}
+
 @media (min-width: 1370px) {
 	.header .container, header container {
 		width: 1370px;
