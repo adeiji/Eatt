@@ -2724,7 +2724,7 @@ a.logo-img {
 		line-height: normal;
 	}
 
-	.class-filter a {
+	#dinner-menu .class-filter a, #menu .class-filter a {
 		width: 48%;
 		margin-left: 1%;
 		margin-right: 1%;
