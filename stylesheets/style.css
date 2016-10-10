@@ -1938,6 +1938,10 @@ a.logo-img {
 	background-color: #1d90dd;
 }
 
+.widget-brand .social a.instagram {
+	background-color: #125688;
+}
+
 .widget-brand .social a:hover {
 	background-color: #ecb313;
 }
