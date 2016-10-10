@@ -857,7 +857,7 @@ a.logo-img {
 }
 
 #menu .class-filter a { /* lunch menu specific width */
-	width: 21.875%;
+	width: 17.5%;
 }
 
 #dinner-menu .class-filter a { /* dinner menu specific width */
@@ -2474,7 +2474,7 @@ a.logo-img {
 	}
 
 	#menu .class-filter a { /* lunch menu specific adjustments */
-		width: 24%;
+		width: 19%;
 		margin-left: 1%;
 	}
 
