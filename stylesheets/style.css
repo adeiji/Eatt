@@ -1234,6 +1234,26 @@ a.logo-img {
 	position: relative;
 }
 
+/* Links Section
+-------------------------------------------------------------- */
+.links-section {
+	background: none;
+	background-color: white;
+	width: 100%;
+	background-size: cover;
+	padding: 100px 0;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+.links-section table td {
+	width: 33%;
+	text-align: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+}
+
 .titlebox.meet-box {
 	position: relative;
 	z-index: 10;
