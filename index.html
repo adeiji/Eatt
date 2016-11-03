@@ -32,6 +32,12 @@
    <link href="icon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
    <link href="icon/faviconeatt.png" rel="shortcut icon">
 
+   <!--ItsOnMe Widget-->
+   <link rel="stylesheet" type="text/css" href="https://www.itson.me/content/widget/widget-1.1.css">
+   <script type="text/javascript" src="https://www.itson.me/content/widget/widget-1.0.js"></script>
+   <!-- It's On Me widget init script - can alternatively be added to existing page on load scripts -->
+   <script type="text/javascript">IOM.run();</script>
+
    <!-- basic stylesheet with skins imported -->
    <!--<link rel="stylesheet" type="text/css" href="src/css/mightyslider.css"/>-->
 
@@ -78,14 +84,19 @@
                      <div class="btn-menu"></div><!--//mobile menu button -->
                      <nav id="mainnav" class="mainnav">
                         <ul class="menu">
-                           <li><a class="active" href="#top">Home</a></li>
-                           <li><a href="#menu">Our Menu</a></li>
+                           <li><a href="#menu">Menu</a></li>
+                           <li>
+                               <!-- widget button - the gui element seen by user -->
+                               <a rel="shadowbox[IOM]" href="https://www.itson.me/widget/74-1220-eatt" title="Gift Cards" target="blank">
+                                   Gift Cards
+                               </a>
+                           </li>
                            <li><div><a href="order-online.html" id="order-online">Order Online</a></div></li>
-                           <li><a href="#catering">Catering</a></li>                                                      
+                           <li><a href="#catering">Catering</a></li>
                            <li class="logo-img"></li>
                            <li><a href="#testimonial">Reviews</a></li>                           
-                           <li><a href="#meet">Meet our Team</a></li>
-                           <li><a href="#links">Media&nbsp;&amp;&nbsp;Press</a></li>
+                           <li><a href="#meet">Team</a></li>
+                           <li><a href="#links">Press</a></li>
                            <li><a href="#footer">Contacts</a></li>
                            
                         </ul><!--/.menu-->
@@ -94,7 +105,7 @@
                </div>
             </div>
          </div> 
-      </header>
+      </header>      
 
       <div class="container">
             <div class="row">
@@ -1015,7 +1026,7 @@
          </div>
       </div>
    </section>
-   
+
    <!--map-->
    <section id="map-google" class="map-section culi-animation" data-portfolio-effect="fadeInDown" data-animation-delay="0" data-animation-offset="100%">
       <div id="map" style="width: 100%; height: 530px;"></div>
@@ -1118,7 +1129,7 @@
             }
          });
       });
-   </script>
+   </script>   
 </body>
 
 </html>
