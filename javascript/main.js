@@ -210,28 +210,54 @@
     // menu isotop
     var menuIsotop = function () {
         if ( $().isotope ) {
-            var $container = $('.portfolio-container');
 
-            $container.imagesLoaded(function(){
-               $container.isotope({
+            /* lunch menu jQuery.isotope setup */
+            var $lunchContainer = $('.lunch.portfolio-container'); //setup the lunch container
+
+            $lunchContainer.imagesLoaded(function(){
+               $lunchContainer.isotope({
+                itemSelector: '.col-md-4',
+                columnWidth: '.col-md-4',
+                transitionDuration: '1s'
+               }); // end isotope
+            });           
+
+            //this code does the filtering of items based on the lunch menu section selected
+            $('#menu .class-filter li').on('click',function(){
+                var selector = $(this).find("a").attr('data-filter');
+                $lunchContainer.isotope({ filter: selector });
+                return false;
+            }); // on click           
+
+            $('#menu .class-filter li a').on('click', function () { // add state active for element a after click at LUNCH MENU
+                $('#menu .class-filter li a').removeClass('active');
+                $(this).addClass('active');
+            });
+
+            /* dinner menu jQuery.isotope setup */
+            var $dinnerContainer = $('.dinner.portfolio-container'); //setup the dinner container           
+
+            $dinnerContainer.imagesLoaded(function(){
+               $dinnerContainer.isotope({
                 itemSelector: '.col-md-4',
                 columnWidth: '.col-md-4',
                 transitionDuration: '1s'
                }); // end isotope
             });
 
-            $('.class-filter li').on('click',function(){
+            //this code does the filtering of items based on the dinner menu section selected
+            $('#dinner-menu .class-filter li').on('click',function(){
                 var selector = $(this).find("a").attr('data-filter');
-                $('.portfolio-container').isotope({ filter: selector });
+                $dinnerContainer.isotope({ filter: selector });
                 return false;
             }); // on click
 
-            $('#menu .class-filter li a').on('click', function () { // add state active for element a after click at OUR MENU
-                $('#menu .class-filter li a').removeClass('active');
+            $('#dinner-menu .class-filter li a').on('click', function () { // add state active for element a after click at DINNER MENU
+                $('#dinner-menu .class-filter li a').removeClass('active');
                 $(this).addClass('active');
             });
 
-            $('.class-filter li:nth-child(1) a').click();
+            $('.class-filter li:nth-child(1) a').click(); //force click to select the first item immediately
         }; // if isotope exists
     };
 
